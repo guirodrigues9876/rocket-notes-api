@@ -22,11 +22,6 @@ class UsersController {
 
         return res.status(201).json();
 
-        // if (!name){
-        //     throw new AppError("Nome é obrigatório")
-        // }
-
-        // res.status(201).json({ name, email, password });
     }
 
     async update(req, res) {
